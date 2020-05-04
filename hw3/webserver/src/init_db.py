@@ -10,7 +10,7 @@ load_dotenv('credentials.env')
 db_user = os.environ['MYSQL_USER']
 db_pass = os.environ['MYSQL_PASSWORD']
 db_name = os.environ['MYSQL_DATABASE']
-db_host = os.enrivon['MYSQL_HOST'] # different than inside the container and assumes default port of 3306
+db_host = os.environ['MYSQL_HOST'] # different than inside the container and assumes default port of 3306
 
 print(db_user)
 print(db_pass)
