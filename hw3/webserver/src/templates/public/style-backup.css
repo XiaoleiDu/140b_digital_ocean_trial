@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+background: rgb(165, 169, 187);
+}
+
+h1{
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.login{
+  width: 382px;
+  background: #066106;
+  padding: 30px;
+  margin: 20px 0 0 500px;
+  border-radius: 10px;
+}
+
+label, span{
+color: white;
+front-szie: 18px;
+
+}
+#userid{
+width: 300px;
+ouline: 0;
+height:30px;
+border: noen;
+border-radius: 3px;
+padding-left: 8px;
+}
+#pwd{
+width: 300px;
+ouline: 0;
+height:30px;
+border: noen;
+border-radius: 3px;
+padding-left: 8px;
+}
+#jetbotid{
+  width: 300px;
+  ouline: 0;
+  height:30px;
+  border: noen;
+  border-radius: 3px;
+  padding-left: 8px;
+  }
+#logbtn{
+text-align: center;
+width: 300px;
+ouline: 0;
+height:30px;
+border: noen;
+border-radius: 3px;
+color:black;
+background: #1674bf;
+}
+#jsbtn{
+text-align: center;
+width: 300px;
+ouline: 0;
+height:30px;
+border: noen;
+border-radius: 3px;
+color:black;
+background: #1674bf;
+position:relative;
+top:50%; 
+left:50%;
+}
+p{
+  color:white;
+  text-align: center;
+}
+.link{
+  text-align: center;
+}
+/* #frtlogo{
+  position:relative;  
+  left:145%;
+
+} */
+.logo{
+  text-align: left;
+  position: fixed;
+  top: 0;
+  left:70%;
+}
