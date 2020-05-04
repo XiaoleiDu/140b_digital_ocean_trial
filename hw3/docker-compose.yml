@@ -6,7 +6,7 @@ services:
     build:
       context: ./webserver
     ports:
-      - 4000:6000
+      - 80:6000
     env_file:
       ./credentials.env
     volumes:
